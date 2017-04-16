@@ -1,0 +1,3 @@
+
+# Accept only ipv4
+NTPD_OPTS='-4 -g'

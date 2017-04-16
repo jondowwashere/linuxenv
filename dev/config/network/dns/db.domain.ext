@@ -1,0 +1,13 @@
+
+$TTL    86400
+@                      IN        SOA         server.domain.ext. admin.domain.ext. (
+                            20170325         ; Serial Number
+                                3600         ; Refresh 1h
+                                3600         ; Retry 1h
+                               86400         ; Expire 1d
+                                3600 )       ; Negative Caching TTL 1h
+;
+@                      IN        NS          server.domain.ext.
+@                      IN        MX    10    server.domain.ext.
+
+server                 IN        A           192.168.1.11

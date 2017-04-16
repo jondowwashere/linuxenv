@@ -1,0 +1,14 @@
+
+zone "domain.ext" {
+     type master;
+     file "/etc/bind/db.domain.ext";
+     #allow-update { key "rndc.key"; };
+     notify yes;
+}
+
+zone "1.168.192.in-addr.arpa" {
+     type master;
+     file "/etc/bind/db.1.168.192";
+     #allow-update { key "rndc.key"; };
+     notify yes;
+}
